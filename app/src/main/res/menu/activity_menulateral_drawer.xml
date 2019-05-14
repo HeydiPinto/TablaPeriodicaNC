@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lista"
+            android:icon="@drawable/lista"
+            android:title="Lista de elementos" />
+        <item
+            android:id="@+id/tabla"
+            android:icon="@drawable/tabla"
+            android:title="Tabla periodica" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/correo"
+                android:icon="@drawable/gmail"
+                android:title="Correo" />
+
+        </menu>
+    </item>
+
+</menu>
