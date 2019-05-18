@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class SplashActivity extends Activity {
-
+//ya llegué xdxd
     // Duración en milisegundos que se mostrará el splash
     private final int DURACION_SPLASH = 3000; // 3 segundos
 
