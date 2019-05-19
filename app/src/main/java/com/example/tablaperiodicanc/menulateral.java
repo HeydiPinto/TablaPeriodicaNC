@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
@@ -87,13 +89,23 @@ public class menulateral extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment fragment = null;
+        Boolean selec=false;
 
         if (id == R.id.lista) {
             // Handle the camera action
+
         } else if (id == R.id.tabla) {
+            fragment= new VistaTabla();
+            selec=true;
+
 
         } else if (id == R.id.correo) {
 
+        }
+
+        if(selec){
+            getSupportFragmentManager().beginTransaction().replace(R.id.contenido,fragment).commit();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

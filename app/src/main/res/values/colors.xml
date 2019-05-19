@@ -3,4 +3,7 @@
     <color name="colorPrimary">#00acc1</color>
     <color name="colorPrimaryDark">#bbdefb</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="nometales">#00E676</color>
+    <color name="metales">#FFEB3B</color>
+    <color name="metaloides">#FF9800</color>
 </resources>
