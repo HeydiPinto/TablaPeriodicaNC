@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00acc1</color>
-    <color name="colorPrimaryDark">#bbdefb</color>
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#BBDEFB</color>
     <color name="colorAccent">#D81B60</color>
     <color name="nometales">#00E676</color>
     <color name="metales">#FFEB3B</color>

@@ -15,7 +15,8 @@
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:fillViewport="false">
 
             <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
@@ -28,7 +29,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Pa"
@@ -61,7 +62,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Cm"
@@ -187,7 +188,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="7dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Es"
@@ -204,7 +205,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Np"
@@ -269,7 +270,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="98dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Ac"
@@ -301,7 +302,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Th"
@@ -379,7 +380,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Bk"
@@ -411,7 +412,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Pu"
@@ -458,7 +459,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="7dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Lr"
@@ -475,7 +476,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="7dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Md"
@@ -492,7 +493,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Cf"
@@ -555,7 +556,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Am"
@@ -572,7 +573,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="U"
@@ -1887,7 +1888,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="7dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="No"
@@ -1904,7 +1905,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
-                    android:layout_marginBottom="7dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/metales"
                     android:shadowColor="#FFFFFF"
                     android:text="Fm"
@@ -1920,7 +1921,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="6dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="42dp"
                     android:text="1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1930,7 +1931,7 @@
                     android:layout_width="16dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="11"
                     app:layout_constraintStart_toEndOf="@+id/f10"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1940,7 +1941,7 @@
                     android:layout_width="16dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="22dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="12"
                     app:layout_constraintStart_toEndOf="@+id/f11"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1960,7 +1961,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="4"
                     app:layout_constraintStart_toEndOf="@+id/f3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1970,7 +1971,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="32dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="8"
                     app:layout_constraintStart_toEndOf="@+id/f7"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1980,7 +1981,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="6dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="22dp"
                     android:text="5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g4" />
@@ -1990,7 +1991,7 @@
                     android:layout_width="16dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="26dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="10"
                     app:layout_constraintStart_toEndOf="@+id/f9"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1999,7 +2000,7 @@
                     android:id="@+id/f18"
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="14dp"
                     android:layout_marginEnd="19dp"
                     android:text="18"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -2010,7 +2011,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="6dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="22dp"
                     android:text="2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g1" />
@@ -2020,7 +2021,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="6dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="23dp"
                     android:text="7"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g6" />
@@ -2029,7 +2030,7 @@
                     android:id="@+id/f16"
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="53dp"
                     android:layout_marginEnd="21dp"
                     android:text="16"
                     app:layout_constraintEnd_toStartOf="@+id/f17"
@@ -2040,7 +2041,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="29dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="5"
                     app:layout_constraintStart_toEndOf="@+id/f4"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2049,7 +2050,7 @@
                     android:id="@+id/f14"
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="53dp"
                     android:layout_marginEnd="23dp"
                     android:text="14"
                     app:layout_constraintEnd_toStartOf="@+id/f15"
@@ -2060,7 +2061,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="6"
                     app:layout_constraintStart_toEndOf="@+id/f5"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2070,7 +2071,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="7"
                     app:layout_constraintStart_toEndOf="@+id/f6"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2080,7 +2081,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="32dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="14dp"
                     android:text="1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2090,7 +2091,7 @@
                     android:layout_width="16dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="419dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="53dp"
                     android:layout_marginEnd="22dp"
                     android:text="13"
                     app:layout_constraintEnd_toStartOf="@+id/f14"
@@ -2102,7 +2103,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="3"
                     app:layout_constraintStart_toEndOf="@+id/mg"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2111,7 +2112,7 @@
                     android:id="@+id/f15"
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="53dp"
                     android:layout_marginEnd="25dp"
                     android:text="15"
                     app:layout_constraintEnd_toStartOf="@+id/f16"
@@ -2122,7 +2123,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="18dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="53dp"
                     android:text="2"
                     app:layout_constraintStart_toEndOf="@+id/h"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2142,7 +2143,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="29dp"
-                    android:layout_marginTop="121dp"
+                    android:layout_marginTop="131dp"
                     android:text="9"
                     app:layout_constraintStart_toEndOf="@+id/f8"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -2152,7 +2153,7 @@
                     android:layout_width="9dp"
                     android:layout_height="16dp"
                     android:layout_marginStart="6dp"
-                    android:layout_marginTop="28dp"
+                    android:layout_marginTop="25dp"
                     android:text="3"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g2" />
@@ -2161,7 +2162,7 @@
                     android:id="@+id/f17"
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="53dp"
                     android:layout_marginEnd="24dp"
                     android:text="17"
                     app:layout_constraintEnd_toStartOf="@+id/f18"
@@ -2173,6 +2174,79 @@
         </HorizontalScrollView>
     </ScrollView>
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="95dp"
+        android:src="@color/colorPrimaryDark"
+        android:translationX="20dp"
+        android:translationY="432dp" />
+
+    <Button
+        android:id="@+id/be3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/nometales"
+        android:shadowColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:translationX="25dp"
+        android:translationY="437dp" />
+
+    <Button
+        android:id="@+id/be2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/metales"
+        android:shadowColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:translationX="25dp"
+        android:translationY="467dp" />
+
+    <Button
+        android:id="@+id/be4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/metaloides"
+        android:shadowColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:translationX="25dp"
+        android:translationY="497dp" />
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Metales"
+        android:translationX="56dp"
+        android:translationY="440dp" />
+
+    <TextView
+        android:id="@+id/m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metales"
+        android:translationX="56dp"
+        android:translationY="470dp" />
+
+    <TextView
+        android:id="@+id/ms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metaloides"
+        android:translationX="56dp"
+        android:translationY="500dp" />
 
 
 </FrameLayout>

@@ -312,7 +312,6 @@ public class VistaTabla extends Fragment implements
         no.setOnClickListener(this);
         lr.setOnClickListener(this);
 
-
         return view;
     }
 
