@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".menulateral"
+            android:configChanges="screenSize|orientation"
             android:label="Tabla Periodica"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity

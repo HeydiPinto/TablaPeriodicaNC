@@ -20,7 +20,7 @@ import android.view.Menu;
 
 public class menulateral extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+int i=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,21 +28,14 @@ public class menulateral extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        TabLayout tabLayout=(TabLayout) findViewById(R.id.tabs);
-        ViewPager Pager=(ViewPager)findViewById(R.id.viewpager);
 
-        tabPagerAdapter tabPagerAdapter= new tabPagerAdapter(getSupportFragmentManager());
-        Pager.setAdapter(tabPagerAdapter);
-        tabLayout.setupWithViewPager(Pager);
+        if(i==0){
+            VistaLista vistaLista = new VistaLista();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.contenido,vistaLista, vistaLista.getTag()).commit();
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        }
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -94,12 +87,14 @@ public class menulateral extends AppCompatActivity
 
         if (id == R.id.lista) {
             // Handle the camera action
+            fragment= new VistaLista();
+            selec=true;
+            i++;
 
         } else if (id == R.id.tabla) {
             fragment= new VistaTabla();
             selec=true;
-
-
+            i++;
         } else if (id == R.id.correo) {
 
         }
