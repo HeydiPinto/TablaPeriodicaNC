@@ -8,20 +8,20 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="171dp"
-        android:layout_height="167dp"
+        android:layout_width="262dp"
+        android:layout_height="252dp"
 
         android:layout_above="@+id/textView"
         android:layout_alignStart="@+id/textView"
 
         android:layout_alignEnd="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="246dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="58dp"
         android:foregroundGravity="center"
-        android:src="@drawable/icono_app_circular_zul" />
+        android:src="@drawable/icono_app" />
 
     <TextView
         android:id="@+id/textView"
@@ -41,14 +41,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
         android:layout_alignStart="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="22dp"
         android:text="By: NovaCode"
         android:textAlignment="center"
         android:textStyle="italic" />
