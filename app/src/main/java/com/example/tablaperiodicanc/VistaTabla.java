@@ -1,5 +1,6 @@
 package com.example.tablaperiodicanc;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -28,6 +29,7 @@ public class VistaTabla extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
 
         View view= inflater.inflate(R.layout.vista_tabla, container, false);
 
@@ -316,8 +318,8 @@ public class VistaTabla extends Fragment implements
     }
 
     public void onClick(View v) {
-
-        Toast.makeText(getContext(),"Click en ",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getContext(), Detalle.class);
+        startActivity(intent);
 
     }
 
