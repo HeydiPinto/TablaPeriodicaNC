@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 
 /**
@@ -105,7 +104,7 @@ public class VistaTabla extends Fragment implements
         Button tf =(Button) view.findViewById(R.id.tf);
         //14
         Button c =(Button) view.findViewById(R.id.c);
-        Button sl =(Button) view.findViewById(R.id.sl);
+        Button sl =(Button) view.findViewById(R.id.j);
         Button ge =(Button) view.findViewById(R.id.ge);
         Button sn =(Button) view.findViewById(R.id.sn);
         Button pb =(Button) view.findViewById(R.id.pb);
