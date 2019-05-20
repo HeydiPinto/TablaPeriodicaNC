@@ -30,7 +30,8 @@ public class EMetal extends Fragment {
             "Litio",
             "Berilio",
             "Aluminio",
-            "Sosio"
+            "Sodio",
+                "Magnesio"
 
         } ;
 
