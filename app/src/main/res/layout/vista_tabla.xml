@@ -23,6 +23,28 @@
                 android:layout_height="match_parent">
 
 
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="12dp"
+                    android:layout_height="13dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginBottom="29dp"
+                    android:text="*"
+                    android:textColor="@color/rojo"
+                    app:layout_constraintBottom_toTopOf="@+id/textView11"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="9dp"
+                    android:layout_height="13dp"
+                    android:layout_marginStart="83dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="*"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
                 <Button
                     android:id="@+id/pa"
                     android:layout_width="35dp"
@@ -31,11 +53,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pa"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/th"
                     app:layout_constraintTop_toBottomOf="@+id/pr" />
@@ -48,11 +71,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Tb"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/gd"
                     app:layout_constraintTop_toBottomOf="@+id/rg" />
 
@@ -64,11 +88,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cm"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/am"
                     app:layout_constraintTop_toBottomOf="@+id/gd" />
@@ -80,11 +105,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Tm"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/er"
                     app:layout_constraintTop_toBottomOf="@+id/me" />
 
@@ -95,11 +121,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Gd"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/eu"
                     app:layout_constraintTop_toBottomOf="@+id/ds" />
 
@@ -111,11 +138,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ds"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/mt"
                     app:layout_constraintTop_toBottomOf="@+id/pt" />
 
@@ -127,11 +155,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Rf"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/serie2"
                     app:layout_constraintTop_toBottomOf="@+id/hf" />
 
@@ -142,11 +171,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="*"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ra"
                     app:layout_constraintTop_toBottomOf="@+id/serie" />
 
@@ -157,11 +187,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sc"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ca"
                     app:layout_constraintTop_toBottomOf="@+id/f3" />
 
@@ -173,11 +204,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="3dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Fr"
                     android:textAllCaps="false"
                     android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/g7"
                     app:layout_constraintTop_toBottomOf="@+id/cs" />
 
@@ -190,11 +222,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Es"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cf"
                     app:layout_constraintTop_toBottomOf="@+id/ho" />
@@ -207,11 +240,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Np"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/u"
                     app:layout_constraintTop_toBottomOf="@+id/pm" />
@@ -224,11 +258,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Rg"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ds"
                     app:layout_constraintTop_toBottomOf="@+id/au" /><![CDATA[
 
@@ -272,11 +307,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ac"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/la" />
@@ -288,11 +324,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pr"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ce"
                     app:layout_constraintTop_toBottomOf="@+id/db" />
 
@@ -304,11 +341,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Th"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/ac"
                     app:layout_constraintTop_toBottomOf="@+id/ce" />
@@ -320,11 +358,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ce"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/la"
                     app:layout_constraintTop_toBottomOf="@+id/rf" />
 
@@ -335,11 +374,12 @@
                     android:layout_marginStart="98dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="La"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/serie2" />
 
@@ -350,11 +390,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Nd"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/pr"
                     app:layout_constraintTop_toBottomOf="@+id/sg" />
 
@@ -366,11 +407,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Yb"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/tm"
                     app:layout_constraintTop_toBottomOf="@+id/nc" />
 
@@ -382,11 +424,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Bk"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cm"
                     app:layout_constraintTop_toBottomOf="@+id/tb" />
@@ -398,11 +441,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Eu"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/sm"
                     app:layout_constraintTop_toBottomOf="@+id/mt" />
 
@@ -414,11 +458,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pu"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/np"
                     app:layout_constraintTop_toBottomOf="@+id/sm" />
@@ -430,11 +475,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pm"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/nd"
                     app:layout_constraintTop_toBottomOf="@+id/bh" />
 
@@ -445,11 +491,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sm"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/pm"
                     app:layout_constraintTop_toBottomOf="@+id/hs" />
 
@@ -461,11 +508,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Lr"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/no"
                     app:layout_constraintTop_toBottomOf="@+id/lu" />
@@ -478,11 +526,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Md"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/fm"
                     app:layout_constraintTop_toBottomOf="@+id/tm" />
@@ -495,11 +544,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cf"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/bk"
                     app:layout_constraintTop_toBottomOf="@+id/dy" />
@@ -511,11 +561,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ho"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/dy"
                     app:layout_constraintTop_toBottomOf="@+id/tf" />
 
@@ -526,11 +577,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Dy"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/tb"
                     app:layout_constraintTop_toBottomOf="@+id/da" />
 
@@ -541,11 +593,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Da"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/rg"
                     app:layout_constraintTop_toBottomOf="@+id/hg" />
 
@@ -558,11 +611,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Am"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/pu"
                     app:layout_constraintTop_toBottomOf="@+id/eu" />
@@ -575,11 +629,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="U"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/pa"
                     app:layout_constraintTop_toBottomOf="@+id/nd" />
@@ -591,11 +646,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="H"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toTopOf="@+id/li"
                     app:layout_constraintEnd_toStartOf="@+id/f2"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -610,11 +666,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Tf"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/da"
                     app:layout_constraintTop_toBottomOf="@+id/tl" />
 
@@ -625,11 +682,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="W"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ta"
                     app:layout_constraintTop_toBottomOf="@+id/mo" />
 
@@ -640,11 +698,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="V"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ti"
                     app:layout_constraintTop_toBottomOf="@+id/f5" />
 
@@ -655,11 +714,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Y"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/sr"
                     app:layout_constraintTop_toBottomOf="@+id/sc" />
 
@@ -670,11 +730,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="*"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ba"
                     app:layout_constraintTop_toBottomOf="@+id/y" />
 
@@ -685,11 +746,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Nb"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/zr"
                     app:layout_constraintTop_toBottomOf="@+id/v" />
 
@@ -700,11 +762,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ta"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/hf"
                     app:layout_constraintTop_toBottomOf="@+id/nb" />
 
@@ -715,11 +778,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ca"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/k"
                     app:layout_constraintTop_toBottomOf="@+id/mg" />
 
@@ -730,11 +794,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sr"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/rb"
                     app:layout_constraintTop_toBottomOf="@+id/ca" />
 
@@ -745,11 +810,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ba"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/cs"
                     app:layout_constraintTop_toBottomOf="@+id/sr" />
 
@@ -760,11 +826,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Li"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/g2"
                     app:layout_constraintTop_toBottomOf="@+id/h" />
 
@@ -775,11 +842,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Na"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/g3"
                     app:layout_constraintTop_toBottomOf="@+id/li" />
 
@@ -790,11 +858,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="K"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/g4"
                     app:layout_constraintTop_toBottomOf="@+id/na" />
 
@@ -805,11 +874,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Rb"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/g5"
                     app:layout_constraintTop_toBottomOf="@+id/k" />
 
@@ -820,11 +890,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cs"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/g6"
                     app:layout_constraintTop_toBottomOf="@+id/rb" />
 
@@ -835,11 +906,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Be"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/li"
                     app:layout_constraintTop_toBottomOf="@+id/f2" />
 
@@ -850,11 +922,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ti"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/sc"
                     app:layout_constraintTop_toBottomOf="@+id/f4" />
 
@@ -865,11 +938,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Mg"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/na"
                     app:layout_constraintTop_toBottomOf="@+id/be" />
 
@@ -880,11 +954,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Hf"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/serie"
                     app:layout_constraintTop_toBottomOf="@+id/zr" />
 
@@ -895,11 +970,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Zr"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/y"
                     app:layout_constraintTop_toBottomOf="@+id/ti" />
 
@@ -911,11 +987,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Er"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ho"
                     app:layout_constraintTop_toBottomOf="@+id/eo" />
 
@@ -926,27 +1003,29 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="23dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Lu"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/yb"
                     app:layout_constraintTop_toBottomOf="@+id/el" />
 
 
                 <Button
-                    android:id="@+id/sl"
+                    android:id="@+id/j"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sl"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/al"
                     app:layout_constraintTop_toBottomOf="@+id/c" />
 
@@ -959,11 +1038,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Rn"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/at"
                     app:layout_constraintTop_toBottomOf="@+id/xe" />
@@ -975,11 +1055,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="At"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/po"
                     app:layout_constraintTop_toBottomOf="@+id/i" />
 
@@ -991,11 +1072,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Xe"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/i"
                     app:layout_constraintTop_toBottomOf="@+id/kr" />
@@ -1007,11 +1089,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="I"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/te"
                     app:layout_constraintTop_toBottomOf="@+id/br" />
 
@@ -1023,11 +1106,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Kr"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/br"
                     app:layout_constraintTop_toBottomOf="@+id/ar" />
@@ -1039,11 +1123,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Br"
                     android:textAllCaps="false"
                     android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/se"
                     app:layout_constraintTop_toBottomOf="@+id/cl" />
 
@@ -1055,11 +1140,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="He"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/f17"
                     app:layout_constraintTop_toBottomOf="@+id/f18" />
@@ -1071,11 +1157,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cl"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/s"
                     app:layout_constraintTop_toBottomOf="@+id/f" />
 
@@ -1087,11 +1174,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ne"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/f"
                     app:layout_constraintTop_toBottomOf="@+id/he" />
@@ -1104,11 +1192,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ar"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cl"
                     app:layout_constraintTop_toBottomOf="@+id/ne" />
@@ -1120,11 +1209,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="O"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/n"
                     app:layout_constraintTop_toBottomOf="@+id/f16" />
 
@@ -1135,11 +1225,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="C"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/b"
                     app:layout_constraintTop_toBottomOf="@+id/f14" />
 
@@ -1150,11 +1241,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="S"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/p"
                     app:layout_constraintTop_toBottomOf="@+id/o" />
 
@@ -1165,11 +1257,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="N"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/c"
                     app:layout_constraintTop_toBottomOf="@+id/f15" />
 
@@ -1180,12 +1273,13 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="P"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
-                    app:layout_constraintStart_toEndOf="@+id/sl"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toEndOf="@+id/j"
                     app:layout_constraintTop_toBottomOf="@+id/n" />
 
                 <Button
@@ -1195,11 +1289,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Se"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/as"
                     app:layout_constraintTop_toBottomOf="@+id/s" />
 
@@ -1210,11 +1305,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/nometales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="F"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/azul"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/o"
                     app:layout_constraintTop_toBottomOf="@+id/f17" />
 
@@ -1225,11 +1321,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Te"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/sb"
                     app:layout_constraintTop_toBottomOf="@+id/se" />
 
@@ -1240,11 +1337,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Po"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/bi"
                     app:layout_constraintTop_toBottomOf="@+id/te" />
 
@@ -1255,11 +1353,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="As"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ge"
                     app:layout_constraintTop_toBottomOf="@+id/p" />
 
@@ -1270,11 +1369,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sb"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/sn"
                     app:layout_constraintTop_toBottomOf="@+id/as" />
 
@@ -1285,11 +1385,12 @@
                     android:layout_marginStart="397dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="B"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/be"
                     app:layout_constraintTop_toBottomOf="@+id/f13" />
 
@@ -1300,13 +1401,14 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metaloides"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ge"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ga"
-                    app:layout_constraintTop_toBottomOf="@+id/sl" />
+                    app:layout_constraintTop_toBottomOf="@+id/j" />
 
                 <Button
                     android:id="@+id/on"
@@ -1316,11 +1418,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="On"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/el"
                     app:layout_constraintTop_toBottomOf="@+id/rn" />
@@ -1332,11 +1435,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="El"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/nc"
                     app:layout_constraintTop_toBottomOf="@+id/at" />
 
@@ -1347,11 +1451,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Nc"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/me"
                     app:layout_constraintTop_toBottomOf="@+id/po" />
 
@@ -1362,11 +1467,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Bi"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/pb"
                     app:layout_constraintTop_toBottomOf="@+id/sb" />
 
@@ -1377,11 +1483,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Me"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/eo"
                     app:layout_constraintTop_toBottomOf="@+id/bi" />
 
@@ -1392,11 +1499,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sn"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/in"
                     app:layout_constraintTop_toBottomOf="@+id/ge" />
 
@@ -1407,11 +1515,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pb"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/tl"
                     app:layout_constraintTop_toBottomOf="@+id/sn" />
 
@@ -1422,11 +1531,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Eo"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/tf"
                     app:layout_constraintTop_toBottomOf="@+id/pb" />
 
@@ -1437,11 +1547,12 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Al"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/f12"
                     app:layout_constraintTop_toBottomOf="@+id/b" />
 
@@ -1452,11 +1563,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ga"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/zn"
                     app:layout_constraintTop_toBottomOf="@+id/al" />
 
@@ -1467,11 +1579,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="In"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/cd"
                     app:layout_constraintTop_toBottomOf="@+id/ga" />
 
@@ -1482,11 +1595,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Tl"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/hg"
                     app:layout_constraintTop_toBottomOf="@+id/in" />
 
@@ -1497,11 +1611,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Mt"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/hs"
                     app:layout_constraintTop_toBottomOf="@+id/ir" />
 
@@ -1512,11 +1627,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cu"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ni"
                     app:layout_constraintTop_toBottomOf="@+id/f11" />
 
@@ -1527,11 +1643,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ag"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/pd"
                     app:layout_constraintTop_toBottomOf="@+id/cu" />
 
@@ -1542,11 +1659,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Au"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/pt"
                     app:layout_constraintTop_toBottomOf="@+id/ag" />
 
@@ -1557,11 +1675,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Bh"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/sg"
                     app:layout_constraintTop_toBottomOf="@+id/re" />
 
@@ -1572,11 +1691,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Hs"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/bh"
                     app:layout_constraintTop_toBottomOf="@+id/os" />
 
@@ -1587,11 +1707,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Hg"
                     android:textAllCaps="false"
                     android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/au"
                     app:layout_constraintTop_toBottomOf="@+id/cd" />
 
@@ -1602,11 +1723,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cd"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ag"
                     app:layout_constraintTop_toBottomOf="@+id/zn" />
 
@@ -1617,11 +1739,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Zn"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/cu"
                     app:layout_constraintTop_toBottomOf="@+id/f12" />
 
@@ -1632,11 +1755,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Sg"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/db"
                     app:layout_constraintTop_toBottomOf="@+id/w" />
 
@@ -1647,11 +1771,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pt"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ir"
                     app:layout_constraintTop_toBottomOf="@+id/pd" />
 
@@ -1662,11 +1787,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Pd"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/rh"
                     app:layout_constraintTop_toBottomOf="@+id/ni" />
 
@@ -1677,11 +1803,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ni"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/co"
                     app:layout_constraintTop_toBottomOf="@+id/f10" />
 
@@ -1692,11 +1819,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Fe"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/mn"
                     app:layout_constraintTop_toBottomOf="@+id/f8" />
 
@@ -1707,11 +1835,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ru"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/tc"
                     app:layout_constraintTop_toBottomOf="@+id/fe" />
 
@@ -1722,11 +1851,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Os"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/re"
                     app:layout_constraintTop_toBottomOf="@+id/ru" />
 
@@ -1738,11 +1868,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Co"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/fe"
                     app:layout_constraintTop_toBottomOf="@+id/f9" />
 
@@ -1753,11 +1884,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Rh"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/ru"
                     app:layout_constraintTop_toBottomOf="@+id/co" />
 
@@ -1768,11 +1900,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ir"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/os"
                     app:layout_constraintTop_toBottomOf="@+id/rh" />
 
@@ -1783,11 +1916,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Db"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/rf"
                     app:layout_constraintTop_toBottomOf="@+id/ta" />
 
@@ -1798,11 +1932,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Mn"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/cr"
                     app:layout_constraintTop_toBottomOf="@+id/f7" />
 
@@ -1813,11 +1948,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Tc"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/mo"
                     app:layout_constraintTop_toBottomOf="@+id/mn" />
 
@@ -1828,11 +1964,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Re"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/w"
                     app:layout_constraintTop_toBottomOf="@+id/tc" />
 
@@ -1843,11 +1980,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Ra"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/fr"
                     app:layout_constraintTop_toBottomOf="@+id/ba" />
 
@@ -1858,11 +1996,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Cr"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/v"
                     app:layout_constraintTop_toBottomOf="@+id/f6" />
 
@@ -1873,11 +2012,12 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="4dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Mo"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
                     app:layout_constraintStart_toEndOf="@+id/nb"
                     app:layout_constraintTop_toBottomOf="@+id/cr" />
 
@@ -1890,11 +2030,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="No"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/md"
                     app:layout_constraintTop_toBottomOf="@+id/yb" />
@@ -1907,11 +2048,12 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
                     android:background="@color/metales"
+                    android:fontFamily="sans-serif-light"
                     android:shadowColor="#FFFFFF"
                     android:text="Fm"
                     android:textAllCaps="false"
-                    android:textColor="?attr/colorBackgroundFloating"
-                    android:textSize="24sp"
+                    android:textColor="@color/rojo"
+                    android:textSize="22sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/es"
                     app:layout_constraintTop_toBottomOf="@+id/er" />
@@ -1923,6 +2065,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="42dp"
                     android:text="1"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1953,6 +2096,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="20dp"
                     android:text="4"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g3" />
 
@@ -1983,6 +2127,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="22dp"
                     android:text="5"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g4" />
 
@@ -2013,6 +2158,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="22dp"
                     android:text="2"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g1" />
 
@@ -2023,6 +2169,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="23dp"
                     android:text="7"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g6" />
 
@@ -2135,6 +2282,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="24dp"
                     android:text="6"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g5" />
 
@@ -2155,6 +2303,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="25dp"
                     android:text="3"
+                    android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/g2" />
 
@@ -2180,6 +2329,14 @@
         android:layout_height="95dp"
         android:src="@color/colorPrimaryDark"
         android:translationX="20dp"
+        android:translationY="432dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="95dp"
+        android:src="@color/ing2"
+        android:translationX="155dp"
         android:translationY="432dp" />
 
     <Button
@@ -2223,6 +2380,133 @@
         android:textStyle="bold"
         android:translationX="25dp"
         android:translationY="497dp" />
+
+    <TextView
+        android:id="@+id/familias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Familias |"
+        android:translationX="290dp"
+        android:translationY="460dp" />
+
+    <TextView
+        android:id="@+id/grupos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupos __"
+        android:textColor="@android:color/black"
+        android:translationX="290dp"
+        android:translationY="435dp" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serie del Antinio"
+        android:translationX="290dp"
+        android:translationY="505dp" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serie del Lantanio"
+        android:translationX="290dp"
+        android:translationY="490dp" />
+
+    <TextView
+        android:id="@+id/ast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/black"
+        android:translationX="280dp"
+        android:translationY="490dp" />
+
+    <TextView
+        android:id="@+id/asterisco2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@color/rojo"
+        android:translationX="280dp"
+        android:translationY="505dp" />
+
+    <TextView
+        android:id="@+id/azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textColor="@color/azul"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="160dp"
+        android:translationY="432dp" />
+
+    <TextView
+        android:id="@+id/blanco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="160dp"
+        android:translationY="453dp" />
+
+    <TextView
+        android:id="@+id/negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="160dp"
+        android:translationY="476dp" />
+
+    <TextView
+        android:id="@+id/rojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:textColor="@color/rojo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="160dp"
+        android:translationY="500dp" />
+
+    <TextView
+        android:id="@+id/gas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gas"
+        android:translationX="180dp"
+        android:translationY="435dp" />
+
+    <TextView
+        android:id="@+id/liquido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Líquido"
+        android:translationX="180dp"
+        android:translationY="456dp" />
+
+    <TextView
+        android:id="@+id/solido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sólido"
+        android:translationX="180dp"
+        android:translationY="479dp" />
+
+    <TextView
+        android:id="@+id/sintetico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sintético"
+        android:translationX="180dp"
+        android:translationY="503dp" />
 
     <TextView
         android:id="@+id/nm"

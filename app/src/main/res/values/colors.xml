@@ -2,8 +2,11 @@
 <resources>
     <color name="colorPrimary">#00ACC1</color>
     <color name="colorPrimaryDark">#BBDEFB</color>
+    <color name="ing2">#CEBBFB</color>
     <color name="colorAccent">#D81B60</color>
     <color name="nometales">#00E676</color>
     <color name="metales">#FFEB3B</color>
     <color name="metaloides">#FF9800</color>
+    <color name="azul">#274DB6</color>
+    <color name="rojo">#F34141</color>
 </resources>
