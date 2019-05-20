@@ -31,8 +31,21 @@ public class EMetal extends Fragment {
             "Berilio",
             "Aluminio",
             "Sodio",
-                "Magnesio"
-
+                "Magnesio" ,
+                "Aluminio",
+                "Potasio",
+                "Calcio",
+                "Escandio",
+                "Titanio",
+                "Vanadio",
+                "Cromo",
+                "Manganeso",
+                "Hierro",
+                "Colbato",
+                "Níquel",
+                "Cobre",
+                "Cinc",
+                "Galio"
         } ;
 
         ListView listView =  view.findViewById(R.id.mainMenu3);
