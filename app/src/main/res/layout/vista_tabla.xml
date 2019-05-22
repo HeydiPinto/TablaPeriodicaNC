@@ -2329,7 +2329,7 @@
         android:layout_height="95dp"
         android:src="@color/colorPrimaryDark"
         android:translationX="10dp"
-        android:translationY="R" />
+        android:translationY="432dp" />
 
     <ImageView
         android:id="@+id/imageView4"
