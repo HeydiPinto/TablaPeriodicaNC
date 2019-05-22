@@ -30,7 +30,7 @@ public class ENometal extends Fragment {
                 "Hidrogeno",
                 "Helio",
                 "Carbono",
-                "Nitrogeno",
+                "Nitrógeno",
                 "Oxígeno",
                 "Flúor",
                 "Neón",
