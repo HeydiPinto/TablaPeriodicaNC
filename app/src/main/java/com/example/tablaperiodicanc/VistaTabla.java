@@ -173,153 +173,981 @@ public class VistaTabla extends Fragment implements
 
 
         //1
-        h.setOnClickListener(this);
-        li.setOnClickListener(this);
-        na.setOnClickListener(this);
-        k.setOnClickListener(this);
-        rb.setOnClickListener(this);
-        cs.setOnClickListener(this);
-        fr.setOnClickListener(this);
+        h.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Hidrógeno");
+                startActivity(intent);
+
+            }
+        });
+        li.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Litio");
+                startActivity(intent);
+            }
+        });
+        na.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Sodio");
+                startActivity(intent);
+            }
+        });
+        k.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Potasio");
+                startActivity(intent);
+            }
+        });
+        rb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Rubidio");
+                startActivity(intent);
+            }
+        });
+        cs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cesio");
+                startActivity(intent);
+            }
+        });
+        fr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Francio");
+                startActivity(intent);
+            }
+        });
         //2
-        be.setOnClickListener(this);
-        mg.setOnClickListener(this);
-        ca.setOnClickListener(this);
-        sr.setOnClickListener(this);
-        ba.setOnClickListener(this);
-        ra.setOnClickListener(this);
+        be.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Berilio");
+                startActivity(intent);
+            }
+        });
+        mg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Magnesio");
+                startActivity(intent);
+            }
+        });
+        ca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","calcio");
+                startActivity(intent);
+            }
+        });
+        sr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Estroncio");
+                startActivity(intent);
+            }
+        });
+        ba.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Bario");
+                startActivity(intent);
+            }
+        });
+        ra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Radio");
+                startActivity(intent);
+            }
+        });
         //3
-        sc.setOnClickListener(this);
-        y.setOnClickListener(this);
+        sc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Escandio");
+                startActivity(intent);
+            }
+        });
+        y.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Itrio");
+                startActivity(intent);
+            }
+        });
         //4
-        ti.setOnClickListener(this);
-        zr.setOnClickListener(this);
-        hf.setOnClickListener(this);
-        rf.setOnClickListener(this);
+        ti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Titanio");
+                startActivity(intent);
+            }
+        });
+        zr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Circonio");
+                startActivity(intent);
+            }
+        });
+        hf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Hafnio");
+                startActivity(intent);
+            }
+        });
+        rf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Rutherfordio");
+                startActivity(intent);
+            }
+        });
         //5
-        v.setOnClickListener(this);
-        nb.setOnClickListener(this);
-        ta.setOnClickListener(this);
-        db.setOnClickListener(this);
+        v.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Vanadio");
+                startActivity(intent);
+            }
+        });
+        nb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Niobio");
+                startActivity(intent);
+            }
+        });
+        ta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Tántalo");
+                startActivity(intent);
+            }
+        });
+        db.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Dubnio");
+                startActivity(intent);
+            }
+        });
         //6
-        cr.setOnClickListener(this);
-        mo.setOnClickListener(this);
-        w.setOnClickListener(this);
-        sg.setOnClickListener(this);
+        cr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cromo");
+                startActivity(intent);
+            }
+        });
+        mo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Molibdeno");
+                startActivity(intent);
+            }
+        });
+        w.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Wolframio");
+                startActivity(intent);
+            }
+        });
+        sg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Seaborgio");
+                startActivity(intent);
+            }
+        });
         //7
-        mn.setOnClickListener(this);
-        tc.setOnClickListener(this);
-        re.setOnClickListener(this);
-        bh.setOnClickListener(this);
+        mn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Manganeso");
+                startActivity(intent);
+            }
+        });
+        tc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Tecnecio");
+                startActivity(intent);
+            }
+        });
+        re.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Renio");
+                startActivity(intent);
+            }
+        });
+        bh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Bohrio");
+                startActivity(intent);
+            }
+        });
         //8
-        fe.setOnClickListener(this);
-        ru.setOnClickListener(this);
-        os.setOnClickListener(this);
-        hs.setOnClickListener(this);
+        fe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Hierro");
+                startActivity(intent);
+            }
+        });
+        ru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Rutenio");
+                startActivity(intent);
+            }
+        });
+        os.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Osmio");
+                startActivity(intent);
+            }
+        });
+        hs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Hassio");
+                startActivity(intent);
+            }
+        });
         //9
-        co.setOnClickListener(this);
-        rh.setOnClickListener(this);
-        ir.setOnClickListener(this);
-        mt.setOnClickListener(this);
+        co.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cobalto");
+                startActivity(intent);
+            }
+        });
+        rh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Rodio");
+                startActivity(intent);
+            }
+        });
+        ir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Iridio");
+                startActivity(intent);
+            }
+        });
+        mt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Meitnerio");
+                startActivity(intent);
+            }
+        });
         //10
-        ni.setOnClickListener(this);
-        pd.setOnClickListener(this);
-        pt.setOnClickListener(this);
-        ds.setOnClickListener(this);
+        ni.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Níquel");
+                startActivity(intent);
+            }
+        });
+        pd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Paladio");
+                startActivity(intent);
+            }
+        });
+        pt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Platino");
+                startActivity(intent);
+            }
+        });
+        ds.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Darmstadtio");
+                startActivity(intent);
+            }
+        });
         //11
-        cu.setOnClickListener(this);
-        ag.setOnClickListener(this);
-        au.setOnClickListener(this);
-        rg.setOnClickListener(this);
+        cu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cobre");
+                startActivity(intent);
+            }
+        });
+        ag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Plata");
+                startActivity(intent);
+            }
+        });
+        au.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Oro");
+                startActivity(intent);
+            }
+        });
+        rg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Roentgenio");
+                startActivity(intent);
+            }
+        });
         //12
-        zn.setOnClickListener(this);
-        cd.setOnClickListener(this);
-        hg.setOnClickListener(this);
-        da.setOnClickListener(this);
+        zn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Zinc");
+                startActivity(intent);
+            }
+        });
+        cd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cadmio");
+                startActivity(intent);
+            }
+        });
+        hg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Mercurio");
+                startActivity(intent);
+            }
+        });
+        da.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Copernicio");
+                startActivity(intent);
+            }
+        });
         //13
-        b.setOnClickListener(this);
-        al.setOnClickListener(this);
-        ga.setOnClickListener(this);
-        in.setOnClickListener(this);
-        tl.setOnClickListener(this);
-        tf.setOnClickListener(this);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Boro");
+                startActivity(intent);
+            }
+        });
+        al.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Aluminio");
+                startActivity(intent);
+            }
+        });
+        ga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Galio");
+                startActivity(intent);
+            }
+        });
+        in.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Indio");
+                startActivity(intent);
+            }
+        });
+        tl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Talio");
+                startActivity(intent);
+            }
+        });
+        tf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Nihonio");
+                startActivity(intent);
+            }
+        });
         //14
-        c.setOnClickListener(this);
-        sl.setOnClickListener(this);
-        ge.setOnClickListener(this);
-        sn.setOnClickListener(this);
-        pb.setOnClickListener(this);
-        eo.setOnClickListener(this);
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Carbono");
+                startActivity(intent);
+            }
+        });
+        sl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Silicio");
+                startActivity(intent);
+            }
+        });
+        ge.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Germanio");
+                startActivity(intent);
+            }
+        });
+        sn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Estaño");
+                startActivity(intent);
+            }
+        });
+        pb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Plomo");
+                startActivity(intent);
+            }
+        });
+        eo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Flerovio");
+                startActivity(intent);
+            }
+        });
         //15
-        n.setOnClickListener(this);
-        p.setOnClickListener(this);
-        as.setOnClickListener(this);
-        sb.setOnClickListener(this);
-        bi.setOnClickListener(this);
-        me.setOnClickListener(this);
+        n.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Nitrógeno");
+                startActivity(intent);
+            }
+        });
+        p.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Fósforo");
+                startActivity(intent);
+            }
+        });
+        as.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Arsénico");
+                startActivity(intent);
+            }
+        });
+        sb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Antimonio");
+                startActivity(intent);
+            }
+        });
+        bi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Bismuto");
+                startActivity(intent);
+            }
+        });
+        me.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Moscovio");
+                startActivity(intent);
+            }
+        });
         //16
-        o.setOnClickListener(this);
-        s.setOnClickListener(this);
-        se.setOnClickListener(this);
-        te.setOnClickListener(this);
-        po.setOnClickListener(this);
-        nc.setOnClickListener(this);
+        o.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Oxígeno");
+                startActivity(intent);
+            }
+        });
+        s.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Azufre");
+                startActivity(intent);
+            }
+        });
+        se.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Selenio");
+                startActivity(intent);
+            }
+        });
+        te.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Teluro");
+                startActivity(intent);
+            }
+        });
+        po.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Polonio");
+                startActivity(intent);
+            }
+        });
+        nc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Livermorio");
+                startActivity(intent);
+            }
+        });
         //17
-        f.setOnClickListener(this);
-        cl.setOnClickListener(this);
-        br.setOnClickListener(this);
-        i.setOnClickListener(this);
-        at.setOnClickListener(this);
-        el.setOnClickListener(this);
+        f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Flúor");
+                startActivity(intent);
+            }
+        });
+        cl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cloro");
+                startActivity(intent);
+            }
+        });
+        br.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Bromo");
+                startActivity(intent);
+            }
+        });
+        i.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Yodo");
+                startActivity(intent);
+            }
+        });
+        at.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Astato");
+                startActivity(intent);
+            }
+        });
+        el.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Teneso");
+                startActivity(intent);
+            }
+        });
         //18
-        he.setOnClickListener(this);
-        ne.setOnClickListener(this);
-        ar.setOnClickListener(this);
-        kr.setOnClickListener(this);
-        xe.setOnClickListener(this);
-        rn.setOnClickListener(this);
-        on.setOnClickListener(this);
+        he.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","helio");
+                startActivity(intent);
+            }
+        });
+        ne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Neón");
+                startActivity(intent);
+            }
+        });
+        ar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Argón");
+                startActivity(intent);
+            }
+        });
+        kr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Kriptón");
+                startActivity(intent);
+            }
+        });
+        xe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Xenón");
+                startActivity(intent);
+            }
+        });
+        rn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Radón");
+                startActivity(intent);
+            }
+        });
+        on.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Oganesón");
+                startActivity(intent);
+            }
+        });;
 
         //fila
-        la.setOnClickListener(this);
-        ce.setOnClickListener(this);
-        pr.setOnClickListener(this);
-        nd.setOnClickListener(this);
-        pm.setOnClickListener(this);
-        sm.setOnClickListener(this);
-        eu.setOnClickListener(this);
-        gd.setOnClickListener(this);
-        tb.setOnClickListener(this);
-        dy.setOnClickListener(this);
-        ho.setOnClickListener(this);
-        er.setOnClickListener(this);
-        tm.setOnClickListener(this);
-        yb.setOnClickListener(this);
-        lu.setOnClickListener(this);
+        la.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Lantano");
+                startActivity(intent);
+            }
+        });
+        ce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cerio");
+                startActivity(intent);
+            }
+        });
+        pr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Praseodimio");
+                startActivity(intent);
+            }
+        });
+        nd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Neodimio");
+                startActivity(intent);
+            }
+        });
+        pm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Prometio");
+                startActivity(intent);
+            }
+        });
+        sm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Samario");
+                startActivity(intent);
+            }
+        });
+        eu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Europio");
+                startActivity(intent);
+            }
+        });
+        gd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Gadolinio");
+                startActivity(intent);
+            }
+        });
+        tb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Terbio");
+                startActivity(intent);
+            }
+        });
+        dy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Disprosio");
+                startActivity(intent);
+            }
+        });
+        ho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Holmio");
+                startActivity(intent);
+            }
+        });
+        er.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Erbio");
+                startActivity(intent);
+            }
+        });
+        tm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Tulio");
+                startActivity(intent);
+            }
+        });
+        yb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Iterbio");
+                startActivity(intent);
+            }
+        });
+        lu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Lutecio");
+                startActivity(intent);
+            }
+        });
 
         //fila2
-        ac.setOnClickListener(this);
-        th.setOnClickListener(this);
-        pa.setOnClickListener(this);
-        u.setOnClickListener(this);
-        np.setOnClickListener(this);
-        pu.setOnClickListener(this);
-        am.setOnClickListener(this);
-        cm.setOnClickListener(this);
-        bk.setOnClickListener(this);
-        cf.setOnClickListener(this);
-        es.setOnClickListener(this);
-        fm.setOnClickListener(this);
-        md.setOnClickListener(this);
-        no.setOnClickListener(this);
-        lr.setOnClickListener(this);
+        ac.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Actinio");
+                startActivity(intent);
+            }
+        });
+        th.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Torio");
+                startActivity(intent);
+            }
+        });
+        pa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Protactinio");
+                startActivity(intent);
+            }
+        });
+        u.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Uranio");
+                startActivity(intent);
+            }
+        });
+        np.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Neptunio");
+                startActivity(intent);
+            }
+        });
+        pu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Plutonio");
+                startActivity(intent);
+            }
+        });
+        am.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Americio");
+                startActivity(intent);
+            }
+        });
+        cm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Curio");
+                startActivity(intent);
+            }
+        });
+        bk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Berkelio");
+                startActivity(intent);
+            }
+        });
+        cf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Californio");
+                startActivity(intent);
+            }
+        });
+        es.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Einstenio");
+                startActivity(intent);
+            }
+        });
+        fm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Fermio");
+                startActivity(intent);
+            }
+        });
+        md.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Mendelevio");
+                startActivity(intent);
+            }
+        });
+        no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Nobelio");
+                startActivity(intent);
+            }
+        });
+        lr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Lawrencio");
+                startActivity(intent);
+            }
+        });
 
         return view;
     }
 
-    public void onClick(View v) {
-        Intent intent = new Intent(getContext(), Detalle.class);
-        startActivity(intent);
+   public void onClick(View v) {
 
+  /*      Intent intent = new Intent(getContext(), Detalle.class);
+        startActivity(intent);
+*/
     }
 
 }
