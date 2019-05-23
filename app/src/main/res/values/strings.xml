@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TablaPeriodicaNC</string>
+    <string name="app_name">Tabla Periódica de los Elementos Químicos</string>
     <string name="title_activity_menulateral">menulateral</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
