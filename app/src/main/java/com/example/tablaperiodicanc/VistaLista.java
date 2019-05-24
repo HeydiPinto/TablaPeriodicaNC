@@ -35,14 +35,7 @@ public class VistaLista extends Fragment {
         Pager.setAdapter(tabPagerAdapter);
         tabLayout.setupWithViewPager(Pager);
 
-        FloatingActionButton fab = view.findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         // Inflate the layout for this fragment
         return view;
     }
