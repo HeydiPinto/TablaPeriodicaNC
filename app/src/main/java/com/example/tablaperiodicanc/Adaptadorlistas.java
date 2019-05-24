@@ -5,14 +5,17 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Adaptadorlistas extends RecyclerView.Adapter<Adaptadorlistas.PersonajeViewHolder> {
     ArrayList<clases> Listaelementos;
-    public Adaptadorlistas(ArrayList<clases>listaelementos){
+    ArrayList<clases> ListaelementosF;
+    public Adaptadorlistas(ArrayList<clases> listaelementos){
         this.Listaelementos=listaelementos;
     }
 
@@ -46,4 +49,38 @@ public class Adaptadorlistas extends RecyclerView.Adapter<Adaptadorlistas.Person
             txtInformacion = (TextView) itemView.findViewById(R.id.ne);
             foto = (ImageView) itemView.findViewById(R.id.idImagen);
         }
-    }}
+    }
+
+    public Filter getFilter() {
+        return new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence charSequence) {
+                String charString = charSequence.toString();
+                if (charString.isEmpty()) {
+                    ListaelementosF = Listaelementos;
+                } else {
+                    ArrayList<clases> filteredList = new ArrayList<>();
+                    for (clases row : Listaelementos) {
+                        // Aquí estamos buscando el nombre o el número de teléfono
+                        if (row.getNombre().toLowerCase().contains(charString.toLowerCase()) || row.getInfo().contains(charSequence)) {
+                            filteredList.add(row);
+                        }
+                    }
+
+                    ListaelementosF= filteredList;
+                }
+
+                FilterResults filterResults = new FilterResults();
+                filterResults.values = ListaelementosF;
+                return filterResults;
+            }
+
+            @Override
+            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+                ListaelementosF = (ArrayList<clases>) filterResults.values;
+                notifyDataSetChanged();
+            }
+        };
+    }
+
+}

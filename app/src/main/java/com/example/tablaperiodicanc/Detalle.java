@@ -71,9 +71,9 @@ public class Detalle extends AppCompatActivity {
                                         nombre.setText(p.getNombre());
                                         detalles.setText(p.getInfo());
                                         masa.setText(p.getMasa());
-                                        numero.setText(p.getN_elemento());
-                                        densidad.setText(p.getDensidad());
-                                        simbolo.setText(p.getSimbolo());
+                                        numero.setText("No. Atomico"+p.getN_elemento());
+                                        densidad.setText("Densidad de "+p.getDensidad());
+                                        simbolo.setText("Masa de "+p.getSimbolo());
                                         String imageHttpAddress=p.getImagen();
                                         downloadFile(imageHttpAddress);
 
