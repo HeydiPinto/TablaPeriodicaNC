@@ -70,10 +70,10 @@ public class Detalle extends AppCompatActivity {
                                         TextView t = new TextView(getBaseContext());
                                         nombre.setText(p.getNombre());
                                         detalles.setText(p.getInfo());
-                                        masa.setText(p.getMasa());
-                                        numero.setText("No. Atomico"+p.getN_elemento());
+                                        masa.setText("Masa de "+p.getMasa());
+                                        numero.setText("No. Atomico "+p.getN_elemento());
                                         densidad.setText("Densidad de "+p.getDensidad());
-                                        simbolo.setText("Masa de "+p.getSimbolo());
+                                        simbolo.setText(p.getSimbolo());
                                         String imageHttpAddress=p.getImagen();
                                         downloadFile(imageHttpAddress);
 
