@@ -94,6 +94,33 @@ public class ListaPersonajesFragment extends Fragment {
         Listaelementos.add(new clases("Circonio", "El circonio o zirconio es un elemento químico de número atómico 40 y peso atómico 91.224. ", R.drawable.circonio));
         Listaelementos.add(new clases("Niobio", "El niobio es un elemento químico de número atómico 41 situado en el grupo 5 de la tabla periódica de los elementos.", R.drawable.niobio));
         Listaelementos.add(new clases("Molibdeno", "El molibdeno es un elemento químico de número atómico 42 que se encuentra en el grupo 6 de la tabla periódica de los elementos y se simboliza como Mo.", R.drawable.molibdeno));
+        Listaelementos.add(new clases("Tecnecio", "El tecnecio es el más ligero de los elementos químicos que no cuentan con isótopos estables y el primer elemento sintético que se encuentra en la tabla periódica.", R.drawable.tecnecio));
+        Listaelementos.add(new clases("Rutenio", "El rutenio es un elemento químico de número atómico 44 situado en el grupo 8 de la tabla periódica de los elementos. Su símbolo es Ru.", R.drawable.rutenio));
+        Listaelementos.add(new clases("Rodio", "El rodio es un elemento químico de número atómico 45 situado en el grupo 9 de la tabla periódica de los elementos. Su símbolo es Rh.", R.drawable.rodio));
+        Listaelementos.add(new clases("Paladio", "El paladio es un elemento químico de número atómico 46 situado en el grupo 10 de la tabla periódica de los elementos. Su símbolo es Pd.", R.drawable.paladio));
+        Listaelementos.add(new clases("Plata", "La plata es un elemento químico de número atómico 47 situado en el grupo 11 de la tabla periódica de los elementos.", R.drawable.plata));
+        Listaelementos.add(new clases("Cadmio", "El cadmio es un elemento químico de número atómico 48 situado en el grupo 12 de la tabla periódica de los elementos. Su símbolo es Cd. ", R.drawable.cadmio));
+        Listaelementos.add(new clases("Indio", "El indio es un elemento químico de número atómico 49 situado en el grupo 13 de la tabla periódica de los elementos. Su símbolo es In. ", R.drawable.indio));
+        Listaelementos.add(new clases("Estaño", "El estaño es un elemento químico de símbolo Sn (del latín stannum) y número atómico 50.", R.drawable.estanio));
+        Listaelementos.add(new clases("Cesio", "El cesio es el elemento químico con número atómico 55 y peso atómico de 132,905 uma.", R.drawable.cesio));
+        Listaelementos.add(new clases("Bario", "El bario es un elemento químico de la tabla periódica cuyo símbolo es Ba y su número atómico es 56.", R.drawable.bario));
+        Listaelementos.add(new clases("Lantano", "El lantano es un elemento químico de la tabla periódica cuyo símbolo es La y su número atómico es 57.", R.drawable.lantano));
+        Listaelementos.add(new clases("Cerio", "El cerio es un elemento químico de símbolo Ce y número atómico 58.", R.drawable.cerio));
+        Listaelementos.add(new clases("Praseodiomio", "El praseodimio es un elemento químico de la tabla periódica cuyo símbolo es Pr y su número atómico es 59.", R.drawable.praseodimio));
+        Listaelementos.add(new clases("Neodimio", "El neodimio es un elemento químico cuyo símbolo es Nd y su número atómico es 60.", R.drawable.neodimio));
+        Listaelementos.add(new clases("Samario", "El samario es un elemento químico de símbolo Sm y número atómico 62.", R.drawable.samario));
+        Listaelementos.add(new clases("Europio", "El europio es un elemento químico de la tabla periódica cuyo símbolo es Eu y su número atómico es 63.", R.drawable.europio));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
 
 
 
