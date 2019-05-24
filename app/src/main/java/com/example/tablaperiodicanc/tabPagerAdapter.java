@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 public class tabPagerAdapter extends FragmentStatePagerAdapter {
 
 
-    String[] tabarray= new String[]{"Metales","No metales","Metaloides"};
+    String[] tabarray= new String[]{"Metales" ,"No metales","Metaloides"};
     Integer tabNumber=3;
 
     public tabPagerAdapter(FragmentManager fm) {
@@ -26,14 +26,14 @@ public class tabPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (i){
             case 0:
-                EMetal metal= new EMetal();
-                return metal;
+                ListaPersonajesFragment Lista= new ListaPersonajesFragment();
+                return Lista;
             case 1:
-                ENometal Nometal= new ENometal();
-                return Nometal;
+                ListaPersonajesFragment2 Lista2= new ListaPersonajesFragment2();
+                return Lista2;
             case 2:
-                EMetaloide Metaloide= new EMetaloide();
-                return Metaloide;
+                ListaPersonajesFragment3 Lista3= new ListaPersonajesFragment3();
+                return Lista3;
 
         }
 
