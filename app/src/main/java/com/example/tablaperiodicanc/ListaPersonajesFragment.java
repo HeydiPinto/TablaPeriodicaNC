@@ -110,17 +110,7 @@ public class ListaPersonajesFragment extends Fragment {
         Listaelementos.add(new clases("Neodimio", "El neodimio es un elemento químico cuyo símbolo es Nd y su número atómico es 60.", R.drawable.neodimio));
         Listaelementos.add(new clases("Samario", "El samario es un elemento químico de símbolo Sm y número atómico 62.", R.drawable.samario));
         Listaelementos.add(new clases("Europio", "El europio es un elemento químico de la tabla periódica cuyo símbolo es Eu y su número atómico es 63.", R.drawable.europio));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
-        Listaelementos.add(new clases("", "", R.drawable.molibdeno));
+
 
 
 

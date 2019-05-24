@@ -25,9 +25,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,7 +88,7 @@ int i=0;
         getMenuInflater().inflate(R.menu.menulateral, menu);
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        searchView = (SearchView) menu.findItem(R.id.action_search)
+        searchView = (SearchView) menu.findItem(R.id.action_seaarch)
                 .getActionView();
         searchView.setSearchableInfo(searchManager
                 .getSearchableInfo(getComponentName()));
@@ -120,7 +118,7 @@ int i=0;
         int id = item.getItemId();
 //
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_search) {
+        if (id == R.id.action_seaarch) {
             return true;
         }
 
@@ -147,7 +145,9 @@ int i=0;
             i++;
 
         } else if (id == R.id.correo) {
-
+            fragment= new correo();
+            selec=true;
+            i++;
         }
 
         if(selec){

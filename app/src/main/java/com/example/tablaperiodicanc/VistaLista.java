@@ -36,7 +36,6 @@ public class VistaLista extends Fragment {
         tabLayout.setupWithViewPager(Pager);
 
 
-        // Inflate the layout for this fragment
         return view;
     }
 
