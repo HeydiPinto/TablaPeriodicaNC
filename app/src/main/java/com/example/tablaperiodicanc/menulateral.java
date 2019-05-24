@@ -70,7 +70,7 @@ int i=0;
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_search) {
             return true;
         }
 
@@ -94,6 +94,7 @@ int i=0;
         } else if (id == R.id.tabla) {
             fragment= new VistaTabla();
             selec=true;
+
             i++;
         } else if (id == R.id.correo) {
 

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -173,63 +174,7 @@ public class VistaTabla extends Fragment implements
 
 
         //1
-        h.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Hidrógeno");
-                startActivity(intent);
 
-            }
-        });
-        li.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Litio");
-                startActivity(intent);
-            }
-        });
-        na.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Sodio");
-                startActivity(intent);
-            }
-        });
-        k.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Potasio");
-                startActivity(intent);
-            }
-        });
-        rb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Rubidio");
-                startActivity(intent);
-            }
-        });
-        cs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Cesio");
-                startActivity(intent);
-            }
-        });
-        fr.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Francio");
-                startActivity(intent);
-            }
-        });
         //2
         be.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1139,11 +1084,69 @@ public class VistaTabla extends Fragment implements
                 startActivity(intent);
             }
         });
+        h.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Hidrógeno");
+                startActivity(intent);
+            }
+        });
+        li.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Litio");
+                startActivity(intent);
+            }
+        });
+        na.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Sodio");
+                startActivity(intent);
+            }
+        });
+        k.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Potasio");
+                startActivity(intent);
+            }
+        });
+        rb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Rubidio");
+                startActivity(intent);
+            }
+        });
+        cs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Cesio");
+                startActivity(intent);
+            }
+        });
+        fr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Detalle.class);
+                intent.putExtra("elemento","Francio");
+                startActivity(intent);
+            }
+        });
+
 
         return view;
     }
 
    public void onClick(View v) {
+
 
   /*      Intent intent = new Intent(getContext(), Detalle.class);
         startActivity(intent);

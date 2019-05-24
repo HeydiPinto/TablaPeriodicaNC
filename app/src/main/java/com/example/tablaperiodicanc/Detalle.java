@@ -27,6 +27,7 @@ public class Detalle extends AppCompatActivity {
         setContentView(R.layout.activity_detalle);
 
 
+
         final TextView nombre=(TextView) findViewById(R.id.nombre);//.setText("Cobre");
         final TextView numero=(TextView) findViewById(R.id.dato1);//.setText("No.Atomico x");
         final TextView masa=(TextView) findViewById(R.id.dato2);//.setText("Fam. in");
