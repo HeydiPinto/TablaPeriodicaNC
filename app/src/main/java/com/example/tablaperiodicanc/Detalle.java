@@ -36,6 +36,7 @@ public class Detalle extends AppCompatActivity {
         setContentView(R.layout.activity_detalle);
 
 
+
         final TextView nombre=(TextView) findViewById(R.id.nombre);//.setText("Cobre");
         final TextView numero=(TextView) findViewById(R.id.dato1);//.setText("No.Atomico x");
         final TextView masa=(TextView) findViewById(R.id.dato2);//.setText("Fam. in");
@@ -70,9 +71,9 @@ public class Detalle extends AppCompatActivity {
                                         nombre.setText(p.getNombre());
                                         detalles.setText(p.getInfo());
                                         masa.setText(p.getMasa());
-                                        numero.setText(p.getN_elemento());
-                                        densidad.setText(p.getDensidad());
-                                        simbolo.setText(p.getSimbolo());
+                                        numero.setText("No. Atomico"+p.getN_elemento());
+                                        densidad.setText("Densidad de "+p.getDensidad());
+                                        simbolo.setText("Masa de "+p.getSimbolo());
                                         String imageHttpAddress=p.getImagen();
                                         downloadFile(imageHttpAddress);
 
