@@ -712,7 +712,7 @@ public class VistaTabla extends Fragment implements
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Arsénico");
+                intent.putExtra("elemento","Arsenico");
                 startActivity(intent);
             }
         });
@@ -843,7 +843,7 @@ public class VistaTabla extends Fragment implements
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","helio");
+                intent.putExtra("elemento","Helio");
                 startActivity(intent);
             }
         });
@@ -891,7 +891,7 @@ public class VistaTabla extends Fragment implements
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), Detalle.class);
-                intent.putExtra("elemento","Oganesón");
+                intent.putExtra("elemento","Oganeson");
                 startActivity(intent);
             }
         });;

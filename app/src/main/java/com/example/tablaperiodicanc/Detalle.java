@@ -1,5 +1,7 @@
 package com.example.tablaperiodicanc;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -13,6 +15,9 @@ import com.google.gson.GsonBuilder;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 
 import devazt.devazt.networking.HttpClient;
@@ -20,6 +25,10 @@ import devazt.devazt.networking.OnHttpRequestComplete;
 import devazt.devazt.networking.Response;
 
 public class Detalle extends AppCompatActivity {
+    private ImageView imageView;
+
+
+    private Bitmap loadedImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +43,11 @@ public class Detalle extends AppCompatActivity {
         final TextView simbolo=(TextView) findViewById(R.id.simboloG);
          final TextView detalles=(TextView) findViewById(R.id.detalles);//.setText("Detale dhfkrbfjkbdfjhvgbkjbdfvb vfkb vuj v rrj bvhb cvj j vj fjj ngf jgk gk gjk gj gj gfj dfgj dfg jdfdgrioyeriañn  ññalsk añlkjh aaña ñandlorem mloe re erljrenmeor ka akaia akai kia kai kai kaia kdbhfvdhgvfujsvdfjsbuhvdgfdhgfvhdjfbsdjbnklsndcd j slhioyeuhje s snushueinsb bae k9ibnikeeeeeeeeeeeeeeeeee hb hbhyjg h   shdhch   bhbhibd vbhi d isi   dsuhiughb jn  kk  akee cixenoxe  xeo  xo x3o 3x ox3 3");
 
+        imageView=(ImageView) findViewById(R.id.imagen);
+
 
         LinearLayout stackContent;
+
 
 
             //stackContent =(LinearLayout) findViewById(R.id.StackContent);
@@ -61,6 +73,8 @@ public class Detalle extends AppCompatActivity {
                                         numero.setText(p.getN_elemento());
                                         densidad.setText(p.getDensidad());
                                         simbolo.setText(p.getSimbolo());
+                                        String imageHttpAddress=p.getImagen();
+                                        downloadFile(imageHttpAddress);
 
 
 
@@ -71,11 +85,25 @@ public class Detalle extends AppCompatActivity {
                     }
                 }
             });
-            client.excecute("https://gist.githubusercontent.com/LuisYama/ee8ead37c81de3134714bb0ccac84521/raw/5d184c31b6e5415d84f3c7d27cad94a7d5861248/elementosGeneral.json");
+            client.excecute("https://gist.githubusercontent.com/LuisYama/ee8ead37c81de3134714bb0ccac84521/raw/5785f742fa4baa02106f763fe5ab08b1f37e25d3/elementosGeneral.json");
 
 
 
 
         }
+
+    void downloadFile(String imageHttpAddress) {
+        URL imageUrl = null;
+        try {
+            imageUrl = new URL(imageHttpAddress);
+            HttpURLConnection conn = (HttpURLConnection) imageUrl.openConnection();
+            conn.connect();
+            loadedImage = BitmapFactory.decodeStream(conn.getInputStream());
+            imageView.setImageBitmap(loadedImage);
+        } catch (IOException e) {
+            Toast.makeText(getApplicationContext(), "Error cargando la imagen: "+e.getMessage(), Toast.LENGTH_LONG).show();
+            e.printStackTrace();
+        }
+    }
     }
 
