@@ -102,7 +102,7 @@ int i=0;
                 mAdapter.getFilter().filter(query);
                 return false;
             }
-
+//dhfhh
             @Override
             public boolean onQueryTextChange(String query) {
                 mAdapter.getFilter().filter(query);
