@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.ListFragment;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
@@ -82,26 +83,19 @@ int i=0;
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        Fragment fragment = null;
-        Boolean selec=false;
+        FragmentManager fragmentManager=getSupportFragmentManager();
 
         if (id == R.id.lista) {
             // Handle the camera action
-            fragment= new VistaLista();
-            selec=true;
-            i++;
+            fragmentManager.beginTransaction().replace(R.id.contenido,new VistaLista()).commit();
 
         } else if (id == R.id.tabla) {
-            fragment= new VistaTabla();
-            selec=true;
-            i++;
+            fragmentManager.beginTransaction().replace(R.id.contenido,new VistaTabla()).commit();
         } else if (id == R.id.correo) {
-
+            fragmentManager.beginTransaction().replace(R.id.contenido,new correo()).commit();
         }
 
-        if(selec){
-            getSupportFragmentManager().beginTransaction().replace(R.id.contenido,fragment).commit();
-        }
+
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
